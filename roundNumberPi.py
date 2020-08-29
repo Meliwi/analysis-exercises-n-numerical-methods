@@ -8,7 +8,7 @@ def absErrorlimit (n):
     print("El error absoluto acotado es: ",absoluteLimit)
     return 0;
 # using 3 significant numbers
-absErrorlimit(3)
+absErrorlimit(4)
 
 # Relative error
 print("El error relativo acotado es: ", 0.0005/ round(math.pi,3))
