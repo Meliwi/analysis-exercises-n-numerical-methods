@@ -11,7 +11,7 @@ def absErrorlimit (n):
     return 0;
 
 # using 16 significant numbers
-absErrorlimit(16)
+absErrorlimit(17)
 
 # Relative error
-print("El error relativo acotado es: ", (1/ (2 * (pow(10,16))))/ 1.0000000000000007)
+print("El error relativo acotado es: ", (1/ (2 * (pow(10,17))))/ 1.0000000000000007)
